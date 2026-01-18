@@ -1,0 +1,38 @@
+{
+  "name": "run-until-match",
+  "version": "1.0.0",
+  "description": "A small Node.js CLI utility that runs a command and terminates it when its output matches a given string.",
+  "keywords": [
+    "run",
+    "until",
+    "match",
+    "command",
+    "cmd",
+    "stdout",
+    "wait-for",
+    "wait-for-output",
+    "exit-on-match",
+    "kill-on-match",
+    "stdout-watch",
+    "output-watcher",
+    "pattern-match",
+    "child-process",
+    "cli",
+    "process-control"
+  ],
+  "homepage": "https://github.com/Naamloos/run-until-match#readme",
+  "bugs": {
+    "url": "https://github.com/Naamloos/run-until-match/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naamloos/run-until-match.git"
+  },
+  "license": "MIT",
+  "author": "Naamloos",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "run-until-match": "./index.js"
+  }
+}
