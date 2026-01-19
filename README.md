@@ -1,5 +1,7 @@
 # run-until-match
 
+[![](https://img.shields.io/npm/v/run-until-match)](https://www.npmjs.com/package/run-until-match)
+
 `run-until-match` is a small Node.js CLI utility that runs a command and terminates it when its output matches a given string.
 
 This is particularly useful when working with tools or packages that do not exit cleanly and keep the process running after their work is complete. By watching the standard output and standard error streams, you can wait for a known string and then stop the process. This makes it possible to chain such commands reliably in scripts and CI pipelines.
