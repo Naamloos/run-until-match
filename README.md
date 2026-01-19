@@ -9,7 +9,9 @@ This is particularly useful when working with tools or packages that do not exit
 The tool was inspired by real-world issues encountered with packages such as [typeorm-seeding](https://github.com/w3tecch/typeorm-seeding).
 
 > [!WARNING]  
-> Using `run-until-match` with untrusted or user input may expose you to command injection attacks! **ONLY EVER RUN THIS COMMAND IN TRUSTED ENVIRONMENTS!**
+> Using `run-until-match` with untrusted or user input may expose you to command injection attacks! 
+>
+>Only ever run this command in **trusted** environments.
 
 ## Usage
 
